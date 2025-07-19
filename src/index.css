@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.input {
+  @apply border p-2 w-64;
+}
+
+.btn {
+  @apply bg-blue-500 text-white px-4 py-2 rounded;
+}
+
+/* in your CSS file */
+.pl-10cm {
+  padding-left: 5cm;
+}
